@@ -74,7 +74,7 @@ class Frame extends JFrame implements ActionListener {
             double szoras = Math.sqrt(negyzetOsszeg / darab);
             szoveg2.setText("Szórás: " + szoras);
         } catch (NumberFormatException e1) {
-            szoveg2.setText("Nem megfelelő formátum!");
+            szoveg2.setText("Nem megfelelő a formátum!");
         }
     }
 }
